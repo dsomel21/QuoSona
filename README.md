@@ -4,6 +4,9 @@ A modern Next.js application built with TypeScript and Tailwind CSS.
 
 This project is recreating the workflow builder page from [Quo (OpenPhone)](https://my.openphone.com/settings/phone-numbers/PN1lNZ0Si4/workflow-builder?workflowDefinitionId=WD6dd9a5ebf788477a94b314625e100dc8&blockId=WSinsideBusinessHours).
 
+<img width="1461" height="718" alt="Screenshot 2025-11-10 at 8 19 02 PM" src="https://github.com/user-attachments/assets/113c0061-40e2-4f46-a738-80b0c688e16a" />
+
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) - React framework for production
