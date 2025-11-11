@@ -2,6 +2,8 @@
 
 A modern Next.js application built with TypeScript and Tailwind CSS.
 
+This project is recreating the workflow builder page from [Quo (OpenPhone)](https://my.openphone.com/settings/phone-numbers/PN1lNZ0Si4/workflow-builder?workflowDefinitionId=WD6dd9a5ebf788477a94b314625e100dc8&blockId=WSinsideBusinessHours).
+
 ## Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org/) - React framework for production
@@ -9,6 +11,8 @@ A modern Next.js application built with TypeScript and Tailwind CSS.
 - **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) - Utility-first CSS framework
 - **React**: Version 19.2.0
 - **Fonts**: [Geist](https://vercel.com/font) - Optimized font family from Vercel
+- **React Flow**: For building interactive node-based workflows
+- **ELK.js**: For automatic graph layout
 
 ## Features
 
