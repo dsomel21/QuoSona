@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Quo Job Builder Assistant",
+  "description": "Automates creating Sona jobs from call transcripts within my.quo.com.",
+  "version": "0.1.0",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": [
+    "https://my.quo.com/*",
+    "https://api.openai.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://my.quo.com/inbox/*"],
+      "js": ["content/inbox.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://my.quo.com/sona*"],
+      "js": ["content/sona.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://my.quo.com/settings/phone-numbers/*/workflow-builder*"],
+      "js": ["content/workflow.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
+
